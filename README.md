@@ -47,7 +47,7 @@ TINGGAL SCAN DEH XIXIXI 😁
                      AND MORE >//<
 
 # 💸 DONASI 💸
-* SAWERIA(https://saweria.co/alvarobherman)
+* [SAWERIA](https://saweria.co/alvarobherman)
 
 # 📃 NOTE 📃
 * SCRIPT INI HANYA BISA DIGUNAKAN DI TERMUX
