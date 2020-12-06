@@ -30,7 +30,7 @@
 
 TINGGAL SCAN DEH XIXIXI 😁
 
-# FITUR <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/medal.gif" width="29px"
+# FITUR <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/medal.gif" width="29px">
 
 | AR15BOT      |                   Feature        |
 | :-----------: | :------------------------------: |
@@ -55,6 +55,8 @@ TINGGAL SCAN DEH XIXIXI 😁
 # NOTE <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/coin.gif" width="29px">
 * SCRIPT INI HANYA BISA DIGUNAKAN DI TERMUX
 
-#  THANKS TO <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Handshake.gif" width="35px">
+#  THANKS TO <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Handshake.gif" width="60px">
 * [BOT ST4RZ](https://github.com/Bintang73/botst4rz)
 * [AR15BOT](https://github.com/A187ID/AR15BOT)
+
+# <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/dino.gif" width="29px">
