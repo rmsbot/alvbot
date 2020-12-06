@@ -55,6 +55,6 @@ TINGGAL SCAN DEH XIXIXI 😁
 # NOTE <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/coin.gif" width="29px">
 * SCRIPT INI HANYA BISA DIGUNAKAN DI TERMUX
 
-#  THANKS TO <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Handshake.gif" width="29px">
+#  THANKS TO <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Handshake.gif" width="35px">
 * [BOT ST4RZ](https://github.com/Bintang73/botst4rz)
 * [AR15BOT](https://github.com/A187ID/AR15BOT)
