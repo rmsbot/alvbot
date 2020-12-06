@@ -19,7 +19,8 @@
 </p>
 
 <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Designer.gif" alt="Mario Game" width="600" />
-<div align="center">
+<div align="middle">
+  
 <details>
   
 #  ALAT DAN BAHAN <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/gandalf_parrot.gif" width="29px">
@@ -79,3 +80,5 @@ TINGGAL SCAN DEH XIXIXI 😁
 * [AR15BOT](https://github.com/A187ID/AR15BOT)
 
 # <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/dino.gif" width="700px">
+
+</details>
