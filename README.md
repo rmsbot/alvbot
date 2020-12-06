@@ -1,4 +1,4 @@
-# test
+# <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Hi.gif" width="29px"> Hi >//<
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/alvarobherman/bot-whatsapp/main/temp/65065734.jpg" width="230" height="230"/>
@@ -18,6 +18,10 @@
 <a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FA187ID%2FAR15BOT&count_bg=%2379C83D&title_bg=%23555555&icon=probot.svg&icon_color=%2300FF6D&title=hits&edge_flat=false"/></a>
 </p>
 
+<img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Designer.gif" alt="Mario Game" width="600" />
+<div align="center">
+<details>
+  
 #  ALAT DAN BAHAN <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/gandalf_parrot.gif" width="29px">
 
 1. Aplikasi Termux (WAJIB)
@@ -74,4 +78,4 @@ TINGGAL SCAN DEH XIXIXI 😁
 * [BOT ST4RZ](https://github.com/Bintang73/botst4rz)
 * [AR15BOT](https://github.com/A187ID/AR15BOT)
 
-# <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/dino.gif" width="500px">
+# <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/dino.gif" width="700px">
