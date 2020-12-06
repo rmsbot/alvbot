@@ -29,7 +29,7 @@
 
 TINGGAL SCAN DEH XIXIXI 😁
 
-# FITUR <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/medal.gif" width="29px">
+# FITUR <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Medal.gif" width="29px">
 
 | AR15BOT      |                   Feature        |
 | :-----------: | :------------------------------: |
