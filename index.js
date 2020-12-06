@@ -624,7 +624,70 @@ conn.sendMessage(id, '[WAIT] Searching...❗', MessageType.text)
     conn.sendMessage(id, hasil ,MessageType.text);
 })
 }
-
+if (text.includes("%spamcall")){
+const teks = text.replace(/%spamcall /, "")
+axios.get(`https://arugaz.herokuapp.com/api/spamcall?no=${teks}`).then((res) => {
+	conn.sendMessage(id, '[WAIT] Sedang Menspam xixixi...❗', MessageType.text)
+    let hasil = `\n\n _${res.data.logs}_`;
+    conn.sendMessage(id, hasil ,MessageType.text);
+})
+}
+if (text.includes("%buchin")){
+const teks = text.replace(/!bucin /, "")
+axios.get(`https://arugaz.herokuapp.com/api/howbucins`).then((res) => {
+	conn.sendMessage(id, '[WAIT] Searching...❗', MessageType.text)
+    let hasil = ` _${res.data.desc}_ `;
+    conn.sendMessage(id, hasil ,MessageType.text);
+})
+}
+if (text.includes("%infoanime")){
+const teks = text.replace(/%infoanime /, "")
+axios.get(`https://arugaz.herokuapp.com/api/dewabatch?q=${teks}`).then((res) => {
+	conn.sendMessage(id, '[WAIT] Searching...❗', MessageType.text)
+    let hasil = ` *INFO ANIME ${teks} :* \n\n _${res.data.result}_ `;
+    conn.sendMessage(id, hasil ,MessageType.text);
+})
+}
+if (text.includes("%gay")){
+const teks = text.replace(/%gay /, "")
+axios.get(`https://arugaz.herokuapp.com/api/howgay`).then((res) => {
+	conn.sendMessage(id, '[WAIT] Proses...❗', MessageType.text)
+    let hasil = ` ${res.data.desc} \n\n *Persen Gay Lo!!!* _${res.data.persen}_`;
+    conn.sendMessage(id, hasil ,MessageType.text);
+})
+}
+if (text.includes("%spamsms")){
+const teks = text.replace(/%spamsms /, "")
+axios.get(`https://arugaz.herokuapp.com/api/spamsms?no=${teks}&jum=20`).then((res) => {
+	conn.sendMessage(id, '[WAIT] Sedang Menspam xixixi...❗', MessageType.text)
+    let hasil = ` *INFO SPAM SMS 20 PESAN* \n\n _${res.data.logs}_`;
+    conn.sendMessage(id, hasil ,MessageType.text);
+})
+}
+if (text.includes("%indohot")){
+const teks = text.replace(/%indohot /, "")
+axios.get(`https://arugaz.herokuapp.com/api/indohot`).then((res) => {
+	conn.sendMessage(id, '[WAIT] Proses...❗', MessageType.text)
+    let hasil = ` *Tobat Bosq* \n\n *Judul* _${res.data.result.judul}_ \n\n *Status* _${res.data.result.genre}_ \n\n *Durasi* _${res.data.result.durasi}_ \n\n *Link Bosq* _${res.data.result.url}_ `;
+    conn.sendMessage(id, hasil ,MessageType.text);
+})
+}
+if (text.includes("%resepbunda")){
+const teks = text.replace(/%resepbunda /, "")
+axios.get(`https://masak-apa.tomorisakura.vercel.app/api/search/?q=${teks}`).then((res) => {
+	conn.sendMessage(id, '[WAIT] Searching...❗', MessageType.text)
+    let hasil = ` *Judul:* ${results.title}\n*Penulis:* ${results.author.user}\n*Rilis:* ${results.author.datePublished}\n*Level:* ${results.dificulty}\n*Waktu:* ${results.times}\n*Porsi:* ${results.servings}\n\n*Bahan-bahan:*\n${bahan}\n\n*Step-by-step:*\n${tutor}`;
+    conn.sendMessage(id, hasil ,MessageType.text);
+})
+}
+if (text.includes("%cersex")){
+const teks = text.replace(/%cersex /, "")
+axios.get(`https://arugaz.herokuapp.com/api/cersex2`).then((res) => {
+conn.sendMessage(id, '[WAIT] Searching...❗', MessageType.text)
+    let hasil = ` *Nih cersex Kak :)*\n\n _${res.data.result}_ `;
+    conn.sendMessage(id, hasil ,MessageType.text);
+})
+}
 else if (text == '%gacha'){
 conn.sendMessage(id, 'kirim %cecan/%cogan\n\nContoh: %cecan' ,MessageType.text);
 }
