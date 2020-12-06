@@ -82,9 +82,9 @@ conn.on('message-new', async(m) =>
 
 // Groups
 
-if (text.includes("#buatgrup"))
+if (text.includes("%buatgrup"))
    {
-var nama = text.split("#buatgrup")[1].split("-nomor")[0];
+var nama = text.split("%buatgrup")[1].split("-nomor")[0];
 var nom = text.split("-nomor")[1];
 var numArray = nom.split(",");
 for ( var i = 0; i < numArray.length; i++ ) {
@@ -190,7 +190,7 @@ else if (text == 'Thanks'){
 conn.sendMessage(id, 'Sama sama, semoga harimu menyenangkan :)' ,MessageType.text);
 }
 
-if (text == '#help'){
+if (text == '%help'){
 const corohelp = await get.get('https://covid19.mathdro.id/api/countries/id').json()
 var date = new Date();
 var tahun = date.getFullYear();
@@ -227,7 +227,7 @@ var tampilTanggal = "TANGGAL: " + hari + ", " + tanggal + " " + bulan + " " + ta
 var tampilWaktu = "JAM: " + jam + ":" + menit + ":" + detik;
 conn.sendMessage(id, menu.menu(id, BotName, corohelp, tampilTanggal, tampilWaktu, instagramlu, whatsapplu, kapanbotaktif, grupch1, grupch2) ,MessageType.text);
 }
-else if (text == '#donate'){
+else if (text == '%donate'){
 const corohelp = await get.get('https://covid19.mathdro.id/api/countries/id').json()
 var date = new Date();
 var tahun = date.getFullYear();
@@ -264,7 +264,7 @@ var tampilTanggal = "TANGGAL: " + hari + ", " + tanggal + " " + bulan + " " + ta
 var tampilWaktu = "JAM: " + jam + ":" + menit + ":" + detik;
 conn.sendMessage(id, donate.donate(id, BotName, corohelp, tampilTanggal, tampilWaktu, instagramlu, whatsapplu, kapanbotaktif, grupch1, grupch2) ,MessageType.text);
 }
-else if (text == '#donasi'){
+else if (text == '%donasi'){
 const corohelp = await get.get('https://covid19.mathdro.id/api/countries/id').json()
 var date = new Date();
 var tahun = date.getFullYear();
@@ -301,7 +301,7 @@ var tampilTanggal = "TANGGAL: " + hari + ", " + tanggal + " " + bulan + " " + ta
 var tampilWaktu = "JAM: " + jam + ":" + menit + ":" + detik;
 conn.sendMessage(id, donate.donate(id, BotName, corohelp, tampilTanggal, tampilWaktu, instagramlu, whatsapplu, kapanbotaktif, grupch1, grupch2) ,MessageType.text);
 }
-else if (text == '#DONATE'){
+else if (text == '%DONATE'){
 const corohelp = await get.get('https://covid19.mathdro.id/api/countries/id').json()
 var date = new Date();
 var tahun = date.getFullYear();
@@ -338,7 +338,7 @@ var tampilTanggal = "TANGGAL: " + hari + ", " + tanggal + " " + bulan + " " + ta
 var tampilWaktu = "JAM: " + jam + ":" + menit + ":" + detik;
 conn.sendMessage(id, donate.donate(id, BotName, corohelp, tampilTanggal, tampilWaktu, instagramlu, whatsapplu, kapanbotaktif, grupch1, grupch2) ,MessageType.text);
 }
-else if (text == '#DONASI'){
+else if (text == '%DONASI'){
   const corohelp = await get.get('https://covid19.mathdro.id/api/countries/id').json()
 var date = new Date();
 var tahun = date.getFullYear();
@@ -375,7 +375,7 @@ var tampilTanggal = "TANGGAL: " + hari + ", " + tanggal + " " + bulan + " " + ta
 var tampilWaktu = "JAM: " + jam + ":" + menit + ":" + detik;
 conn.sendMessage(id, donate.donate(id, BotName, corohelp, tampilTanggal, tampilWaktu, instagramlu, whatsapplu, kapanbotaktif, grupch1, grupch2) ,MessageType.text);
 }
-else if (text == '#info'){
+else if (text == '%info'){
   const corohelp = await get.get('https://covid19.mathdro.id/api/countries/id').json()
 var date = new Date();
 var tahun = date.getFullYear();
@@ -437,19 +437,19 @@ axios.get(`https://alfians-api.herokuapp.com/api/yta?url=${teks}`).then((res) =>
     conn.sendMessage(id, hasil ,MessageType.text);
 })
 }
-if (text.includes("%infoig")){
-  const teks = text.replace(/%infoig /, "")
+if (text.includes("%igstalk")){
+  const teks = text.replace(/%igstalk /, "")
   axios.get(`https://alfians-api.herokuapp.com/api/stalk?username=${teks}`).then ((res) =>{
   conn.sendMessage(id, '[WAIT] Searching...❗️', MessageType.text)
-  let hasil = `BIODATA INSTAGRAM ATAS NAMA _${teks}_ \n\n *Username✍️* : _${res.data.Username}_ \n *Nama✍️* : _${res.data.Name}_ \n *Jumlah Followers✍️* : _${res.data.Jumlah_Followers}_ \n *Jumlah Following✍️* : _${res.data.Jumlah_Following}_ \n *Jumlah Post✍️* : _${res.data.Jumlah_Post}_ `;
+  let hasil = `BIODATA INSTAGRAM ATAS NAMA _${teks}_ \n\n *Username👤* : _${res.data.Username}_ \n *Nama👀* : _${res.data.Name}_ \n *Jumlah Followers👥* : _${res.data.Jumlah_Followers}_ \n *Jumlah Following👣* : _${res.data.Jumlah_Following}_ \n *Jumlah Post📱* : _${res.data.Jumlah_Post}_ `;
   conn.sendMessage(id, hasil, MessageType.text);
 })
 }
-if (text.includes("%infogempa")){
-  const teks = text.replace(/%infogempa /, "")
+if (text.includes("%gempainfo")){
+  const teks = text.replace(/%gempainfo /, "")
   axios.get(`https://alfians-api.herokuapp.com/api/infogempa`).then ((res) =>{
   conn.sendMessage(id, '[WAIT] Searching...❗️', MessageType.text)
-  let hasil = ` *INFO GEMPA* \n\ *Lokasi* : _${res.data.lokasi}_ \n *Kedalaman✍️* : _${res.data.kedalaman}_ \n *Koordinat✍️* : _${res.data.koordinat}_ \n *Magnitude✍️* : _${res.data.magnitude}_ \n *Waktu✍️* : _${res.data.waktu}_ `;
+  let hasil = ` *INFO GEMPA* \n\ *Lokasi* : _${res.data.lokasi}_ \n *Kedalaman🏞* : _${res.data.kedalaman}_ \n *Koordinat🚧* : _${res.data.koordinat}_ \n *Magnitude🗺* : _${res.data.magnitude}_ \n *Waktu⏰* : _${res.data.waktu}_ `;
   conn.sendMessage(id, hasil, MessageType.text);
 })
 }
@@ -463,8 +463,8 @@ axios.get(`https://alfians-api.herokuapp.com/api/chord?q=${teks}`).then((res) =>
 }
 
 
-if (text.includes("%ytmp4")){
-const teks = text.replace(/%ytmp4 /, "")
+if (text.includes("%yt")){
+const teks = text.replace(/%yt /, "")
 axios.get(`https://alfians-api.herokuapp.com/api/ytv?url=${teks}`).then((res) => {
 	conn.sendMessage(id, '[WAIT] Sedang Mendownload...❗️', MessageType.text)
     let hasil = ` *Judul:* ${res.data.title}\n\n *Tipe:* ${res.data.ext}\n\n *Resolution:* ${res.data.resolution}\n\n *Zize:* ${res.data.filesize}\n\n *Audio:* ${res.data.result}`;
@@ -481,8 +481,8 @@ axios.get(`https://mhankbarbar.herokuapp.com/api/twit?url=${teks}&apiKey=zFuV88p
 })
 }
 
-if (text.includes("%tts")){
-const teks = text.replace(/%tts /, "")
+if (text.includes("%googlespeak")){
+const teks = text.replace(/%googlespeak /, "")
 const gtts = (`https://rest.farzain.com/api/tts.php?id=${teks}&apikey=O8mUD3YrHIy9KM1fMRjamw8eg`)
     conn.sendMessage(id, gtts ,MessageType.text);
 }
@@ -511,8 +511,8 @@ axios.get(`https://alfians-api.herokuapp.com/api/ig?url=${teks}`).then((res) => 
     conn.sendMessage(id, hasil ,MessageType.text);
 })
 }
-if (text.includes("%wiki")){
-const teks = text.replace(/%wiki /, "")
+if (text.includes("%wikipedia")){
+const teks = text.replace(/%wikipedia /, "")
 axios.get(`https://alfians-api.herokuapp.com/api/wiki?q=${teks}`).then((res) => {
 	conn.sendMessage(id, '[WAIT] Searching...❗', MessageType.text)
     let hasil = ` *👩‍💻Menurut Wikipedia:👩‍💻* \n\n _${res.data.result}_ `;
