@@ -1,5 +1,4 @@
-# 🤖 WHATSAPP BOT BY ALVARO BHERMAN 🤖
-# <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Hi.gif" width="29px"> Hi >//<
+# <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/wave.gif" width="29px"> Hi >//<
 
 <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Designer.gif" alt="Mario Game" width="600" />
 
