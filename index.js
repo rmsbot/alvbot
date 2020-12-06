@@ -600,6 +600,31 @@ axios.get(`https://api.haipbis.xyz/jadwaltv/${teks}`).then((res) => {
     conn.sendMessage(id, hasil ,MessageType.text);
 })
 }
+if (text.includes("%wikipediaen")){
+const teks = text.replace(/%wikipediaen /, "")
+axios.get(`https://arugaz.herokuapp.com/api/wikien?q=${teks}`).then((res) => {
+	conn.sendMessage(id, '[WAIT] Searching...❗', MessageType.text)
+    let hasil = ` *👩‍💻According to Wikipedia:👩‍💻* \n\n _${res.data.result}_ `;
+    conn.sendMessage(id, hasil ,MessageType.text);
+})
+}
+if (text.includes("%puisi")){
+const teks = text.replace(/%puisi /, "")
+axios.get(`https://arugaz.herokuapp.com/api/puisi1`).then((res) => {
+conn.sendMessage(id, '[WAIT] Searching...❗', MessageType.text)
+    let hasil = ` *Puisi :*\n\n _${res.data.result}_ `;
+    conn.sendMessage(id, hasil ,MessageType.text);
+})
+}
+if (text.includes("%cerpen")){
+const teks = text.replace(/%cerpen /, "")
+axios.get(`https://arugaz.herokuapp.com/api/cerpen`).then((res) => {
+conn.sendMessage(id, '[WAIT] Searching...❗', MessageType.text)
+    let hasil = ` *Nih cerpen Kak :)*\n\n _${res.data.result}_ `;
+    conn.sendMessage(id, hasil ,MessageType.text);
+})
+}
+
 else if (text == '%gacha'){
 conn.sendMessage(id, 'kirim %cecan/%cogan\n\nContoh: %cecan' ,MessageType.text);
 }
@@ -940,4 +965,3 @@ if (text.includes("#alay")){
 
 
 })
-
