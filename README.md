@@ -79,6 +79,10 @@ TINGGAL SCAN DEH XIXIXI 😁
 * [BOT ST4RZ](https://github.com/Bintang73/botst4rz)
 * [AR15BOT](https://github.com/A187ID/AR15BOT)
 
+# SOSMED ADMIN <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/powerup.gif" width="60px">
+* Youtube : Alvaro Bherman
+* Instagram : Alvaro Bherman
+
 # <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/dino.gif" width="700px">
 
 </details>
