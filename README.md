@@ -59,4 +59,4 @@ TINGGAL SCAN DEH XIXIXI 😁
 * [BOT ST4RZ](https://github.com/Bintang73/botst4rz)
 * [AR15BOT](https://github.com/A187ID/AR15BOT)
 
-# <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/dino.gif" width="29px">
+# <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/dino.gif" width="500px">
