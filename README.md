@@ -51,3 +51,7 @@ TINGGAL SCAN DEH XIXIXI 😁
 
 # 📃 NOTE 📃
 * SCRIPT INI HANYA BISA DIGUNAKAN DI TERMUX
+
+# 🙏 THANKS TO 🙏
+* [BOT ST4RZ](https://github.com/Bintang73/botst4rz)
+* [AR15BOT](https://github.com/A187ID/AR15BOT)
