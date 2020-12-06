@@ -84,6 +84,6 @@ TINGGAL SCAN DEH XIXIXI 😁
 * Youtube : Alvaro Bherman
 * Instagram : Alvaro Bherman
 
-# <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/dino.gif" width="700px">
+# <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/dino.gif" width="1000px">
 
 </details>
