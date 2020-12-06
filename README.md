@@ -69,10 +69,10 @@ TINGGAL SCAN DEH XIXIXI 😁
 |       ✅       | Pasangan (new)                   |
                      AND MORE >//<
 
-# DONASI <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/happy.gif" width="29px">
+# DONASI <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/coin.gif" width="29px">
 * [SAWERIA](https://saweria.co/alvarobherman)
 
-# NOTE <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/coin.gif" width="29px">
+# NOTE <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/happy.gif" width="29px">
 * SCRIPT INI HANYA BISA DIGUNAKAN DI TERMUX
 
 #  THANKS TO <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Handshake.gif" width="60px">
@@ -80,7 +80,7 @@ TINGGAL SCAN DEH XIXIXI 😁
 * [AR15BOT](https://github.com/A187ID/AR15BOT)
 * [BlackD14](https://github.com/BlackD14/termux-whatsapp-bot)
 
-# SOSMED ADMIN <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/powerup.gif" width="60px">
+# SOSMED ADMIN <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/powerup.gif" width="40px">
 * Youtube : Alvaro Bherman
 * Instagram : Alvaro Bherman
 
