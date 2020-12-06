@@ -1023,6 +1023,9 @@ if (text.includes("%alay")){
 		conn.sendMessage(id, hasil, MessageType.text)
 	})
 }
+	if (msg.body == "!ping reply") {
+    // Send a new message as a reply to the current one
+		 msg.reply("pong");
 
 // AKHIRNYA.... 
 
