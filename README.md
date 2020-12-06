@@ -1,15 +1,18 @@
 # 🤖 WHATSAPP BOT BY ALVARO BHERMAN 🤖
+# <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Hi.gif" width="29px"> Hi >//<
 
-# 🔧 ALAT DAN BAHAN 🔨
+<img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Designer.gif" alt="Mario Game" width="600" />
+
+#  ALAT DAN BAHAN <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/gandalf_parrot.gif" width="29px">
 
 1. Aplikasi Termux (WAJIB)
 2. Internet/Kuota yang lancar
 3. Kesabaran
 4. Kopi :v
 
-# 🧰 CARA INSTALLNYA 🧰
+#  CARA INSTALLNYA <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/hmm.gif" width="29px">
 
-1. termux-setup-storage
+1. termux-setup-storage 
 2. pkg install git
 3. pkg install ffmpeg
 4. pkg install nodejs
@@ -27,7 +30,7 @@
 
 TINGGAL SCAN DEH XIXIXI 😁
 
-# 💡 FITUR 💡
+# FITUR <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/medal.gif" width="29px"
 
 | AR15BOT      |                   Feature        |
 | :-----------: | :------------------------------: |
@@ -46,12 +49,12 @@ TINGGAL SCAN DEH XIXIXI 😁
 |       ✅       | Pasangan (new)                   |
                      AND MORE >//<
 
-# 💸 DONASI 💸
+# DONASI <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/happy.gif" width="29px">
 * [SAWERIA](https://saweria.co/alvarobherman)
 
-# 📃 NOTE 📃
+# NOTE <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/coin.gif" width="29px">
 * SCRIPT INI HANYA BISA DIGUNAKAN DI TERMUX
 
-# 🙏 THANKS TO 🙏
+#  THANKS TO <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Handshake.gif" width="29px">
 * [BOT ST4RZ](https://github.com/Bintang73/botst4rz)
 * [AR15BOT](https://github.com/A187ID/AR15BOT)
