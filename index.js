@@ -612,7 +612,15 @@ if (text.includes("%puisi")){
 const teks = text.replace(/%puisi /, "")
 axios.get(`https://arugaz.herokuapp.com/api/puisi1`).then((res) => {
 conn.sendMessage(id, '[WAIT] Searching...❗', MessageType.text)
-    let hasil = ` *Puisi :*\n\n _${res.data.result}_ `;
+    let hasil = ` Puisi :*\n\n _${res.data.result}_ `;
+    conn.sendMessage(id, hasil ,MessageType.text);
+})
+}
+if (text.includes("%puisi2")){
+const teks = text.replace(/%puisi2 /, "")
+axios.get(`https://arugaz.herokuapp.com/api/puisi3`).then((res) => {
+conn.sendMessage(id, '[WAIT] Searching...❗', MessageType.text)
+    let hasil = ` Puisi :*\n\n _${res.data.result}_ `;
     conn.sendMessage(id, hasil ,MessageType.text);
 })
 }
