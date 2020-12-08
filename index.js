@@ -696,6 +696,21 @@ conn.sendMessage(id, '[WAIT] Searching...❗', MessageType.text)
     conn.sendMessage(id, hasil ,MessageType.text);
 })
 }
+if (text.includes("%s")){
+const teks = text.replace(/%s /, "")
+axios.get(`https://st4rz.herokuapp.com/api/simsimi?kata=${teks}`).then((res) => {
+    let hasil = ` \n\n _${res.data.result}_ `;
+    conn.sendMessage(id, hasil ,MessageType.text);
+})
+}
+if (text.includes("%ttp")){
+const teks = text.replace(/%ttp /, "")
+axios.get(`https://st4rz.herokuapp.com/api/ttp?kata=${teks}`).then((res) => {
+conn.sendMessage(id, '[WAIT] Kalo linknya kepanjangan, maklumlah masih pemula xixixi 😅', MessageType.text)
+    let hasil = ` Nih kak :> Maap kalo kepanjangan linknya 😓 \n\n _${res.data.result}_ `;
+    conn.sendMessage(id, hasil ,MessageType.text);
+})
+}
 else if (text == '%gacha'){
 conn.sendMessage(id, 'kirim %cecan/%cogan\n\nContoh: %cecan' ,MessageType.text);
 }
@@ -867,7 +882,7 @@ if (text.includes("%pokemon"))
   {
     const cheerio = require('cheerio');
     const request = require('request');
-    var nama = text.split("#nama ")[1];
+    var nama = text.split("%artinama ")[1];
     var req = nama.replace(/ /g,"+");
     request.get({
         headers: {'content-type' : 'application/x-www-form-urlencoded'},
@@ -896,7 +911,7 @@ if (text.includes("%pokemon"))
   }
   else if (text.includes("%jodoh ")) {
     const request = require('request');
-    var gh = text.split("#pasangan ")[1];
+    var gh = text.split("%jodoh ")[1];
     var namamu = gh.split("&")[0];
     var pasangan = gh.split("&")[1];
     request.get({
@@ -1017,7 +1032,7 @@ if (text.includes("%randomanime"))
     }
  
 if (text.includes("%lirik")){
-	const teks = text.split("#lirik")[1]
+	const teks = text.split("%lirik")[1]
 	axios.get(`http://scrap.terhambar.com/lirik?word=${teks}`).then ((res) => {
 	     conn.sendMessage(id, '[WAIT] Searching...❗', MessageType.text)
 	 	let hasil = `🎶lirik🎶 lagu ${teks} \n\n\n ${res.data.result.lirik}`
@@ -1025,7 +1040,7 @@ if (text.includes("%lirik")){
 	})
 }
 if (text.includes("%alay")){
-	const alay = text.split("#alay")[1]
+	const alay = text.split("%alay")[1]
 	axios.get(`https://api.terhambar.com/bpk?kata=${alay}`).then ((res) =>
 		{ let hasil = `${res.data.text}`
 		conn.sendMessage(id, hasil, MessageType.text)
