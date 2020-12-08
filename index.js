@@ -711,6 +711,14 @@ conn.sendMessage(id, '[WAIT] Kalo linknya kepanjangan, maklumlah masih pemula xi
     conn.sendMessage(id, hasil ,MessageType.text);
 })
 }
+if (text.includes("%animefilm")){
+const teks = text.replace(/%animefilm /, "")
+axios.get(`https://arugaz.herokuapp.com/api/sdmovie?film=${teks}`).then((res) => {
+	conn.sendMessage(id, '[WAIT] Searching...❗', MessageType.text)
+    let hasil = ` *Film Anime ${teks} :* \n\n *Judul* _${res.data.result.title}_ \n\n *Rating* _${res.data.result.rating}_ \n\n *Info* _${res.data.result.sinopsis}_ \n\n *Link Video* _${res.data.result.video}_ `;
+    conn.sendMessage(id, hasil ,MessageType.text);
+})
+}
 else if (text == '%gacha'){
 conn.sendMessage(id, 'kirim %cecan/%cogan\n\nContoh: %cecan' ,MessageType.text);
 }
@@ -1376,6 +1384,17 @@ case '%quotemaker':
                 client.reply(from, 'Usage: \n%quotemaker |teks|watermark|theme\n\nEx :\n%quotemaker |ini contoh|alvaro|random', id)
             }
             break
+case '%qr':
+                var nonOption = quotedMsg ? quotedMsgObj.body : args.join(' ')
+                QrMaker(nonOption)
+                    .then(data => {
+                        client.sendImage(from, data, 'qr.jpg', '')
+                    })
+                    .catch(err => {
+                        console.log(err)
+                    })
+                insert(author, type, content, pushname, from, argv)
+                break
 
 // AKHIRNYA.... 
 
