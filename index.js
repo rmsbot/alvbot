@@ -1337,7 +1337,45 @@ Yiddish                 |  yi
 Yoruba                  |  yo
 Zulu                      |  zu
       ` );
-
+case '%brainly':
+            if (args.length >= 2){
+                const BrainlySearch = require('./lib/brainly')
+                let tanya = body.slice(9)
+                let jum = Number(tanya.split('.')[1]) || 2
+                if (jum > 10) return client.reply(from, 'Max 10!', id)
+                if (Number(tanya[tanya.length-1])){
+                    tanya
+                }
+                client.reply(from, `➸ *Pertanyaan* : ${tanya.split('.')[0]}\n\n➸ *Jumlah jawaban* : ${Number(jum)}`, id)
+                await BrainlySearch(tanya.split('.')[0],Number(jum), function(res){
+                    res.forEach(x=>{
+                        if (x.jawaban.fotoJawaban.length == 0) {
+                            client.reply(from, `➸ *Pertanyaan* : ${x.pertanyaan}\n\n➸ *Jawaban* : ${x.jawaban.judulJawaban}\n`, id)
+                        } else {
+                            client.reply(from, `➸ *Pertanyaan* : ${x.pertanyaan}\n\n➸ *Jawaban* : ${x.jawaban.judulJawaban}\n\n➸ *Link foto jawaban* : ${x.jawaban.fotoJawaban.join('\n')}`, id)
+                        }
+                    })
+                })
+            } else {
+                client.reply(from, 'Usage :\n!brainly [pertanyaan] [.jumlah]\n\nEx : \n!brainly NKRI .2', id)
+            }
+            break
+case '%quotemaker':
+            arg = body.trim().split('|')
+            if (arg.length >= 4) {
+                client.reply(from, mess.wait, id)
+                const quotes = encodeURIComponent(arg[1])
+                const author = encodeURIComponent(arg[2])
+                const theme = encodeURIComponent(arg[3])
+                await quotemaker(quotes, author, theme).then(amsu => {
+                    client.sendFile(from, amsu, 'quotesmaker.jpg','neh mhank... Follow ig admin juga yak @alvarobhermann_').catch(() => {
+                       client.reply(from, mess.error.Qm, id)
+                    })
+                })
+            } else {
+                client.reply(from, 'Usage: \n%quotemaker |teks|watermark|theme\n\nEx :\n%quotemaker |ini contoh|alvaro|random', id)
+            }
+            break
 // AKHIRNYA.... 
 
 
