@@ -1110,7 +1110,7 @@ Season  : *${result.docs[0].season}*
 				const tutor = MessageMedia.fromFilePath('tutor.jpeg');
 
 				client.sendMessage(msg.from, tutor, {
-        		caption: "Kirim gambar dengan caption *!wait* \n sesuai gambar diatas lalu tunggu sampai \n kita menemukan hasilnya"
+        		caption: "Kirim gambar dengan caption *%wait* \n sesuai gambar diatas lalu tunggu sampai \n kita menemukan hasilnya"
       		});
 	  		}
 	} else if (msg.body.startsWith("%nh ")) {
@@ -1376,6 +1376,7 @@ case '%quotemaker':
                 client.reply(from, 'Usage: \n%quotemaker |teks|watermark|theme\n\nEx :\n%quotemaker |ini contoh|alvaro|random', id)
             }
             break
+
 // AKHIRNYA.... 
 
 
