@@ -733,6 +733,9 @@ axios.get(`http://inspirobot.me/api?generate=true`).then((res) => {
     conn.sendMessage(id, hasil ,MessageType.text);
 })
 }
+else if (text == '%ptl'){
+conn.sendMessage(id, 'kirim #ptl cewek/cowok\n\nContoh: #ptl cewek' ,MessageType.text);
+}
    if (messageType == 'imageMessage')
    {
       let caption = imageMessage.caption.toLocaleLowerCase()
