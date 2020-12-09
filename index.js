@@ -723,7 +723,7 @@ axios.get(`https://arugaz.herokuapp.com/api/sdmovie?film=${teks}`).then((res) =>
 if (text.includes("%say")){
   const teks = text.replace(/%say /, "")
 conn.sendMessage(id, teks, MessageType.text)
-})
+}
 }
 if (text.includes("%randomquotespic")){
 const teks = text.replace(/%randomquotespic/, "")
