@@ -724,7 +724,7 @@ if (text.includes("%say")){
   const teks = text.replace(/%say /, "")
 conn.sendMessage(id, teks, MessageType.text)
 }
-}
+})
 if (text.includes("%randomquotespic")){
 const teks = text.replace(/%randomquotespic/, "")
 axios.get(`http://inspirobot.me/api?generate=true`).then((res) => {
