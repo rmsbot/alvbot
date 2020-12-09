@@ -739,10 +739,10 @@ conn.sendMessage(id, 'kirim %cecan/%cogan\n\nContoh: %cecan' ,MessageType.text);
    if (messageType == 'imageMessage')
    {
       let caption = imageMessage.caption.toLocaleLowerCase()
-      const buffer = await conn.downloadMediaMessage(m) // to decrypt & use as a buffer
+      const buffer = await conn.downloadMediaMessage(m) 
       if (caption == '%sticker')
       {
-         const stiker = await conn.downloadAndSaveMediaMessage(m) // to decrypt & save to file
+         const stiker = await conn.downloadAndSaveMediaMessage(m) 
 
          const
          {
