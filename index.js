@@ -99,7 +99,7 @@ conn.sendMessage(group.gid, "hello everyone", MessageType.extendedText) // say h
 
 }
 
-}
+//Chat
 else if (text == 'assalamualaikum'){
 conn.sendMessage(id, 'Waalaikumsalam, ada yang bisa saya bantu? kalo bingung ketik %help ya say..' ,MessageType.text);
 }
