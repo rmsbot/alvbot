@@ -733,26 +733,6 @@ axios.get(`http://inspirobot.me/api?generate=true`).then((res) => {
     conn.sendMessage(id, hasil ,MessageType.text);
 })
 }
-if (caption == '%sticker')
-      {
-         const stiker = await conn.downloadAndSaveMediaMessage(m) // to decrypt & save to file
-
-         const
-         {
-            exec
-         } = require("child_process");
-         exec('cwebp -q 50 ' + stiker + ' -o temp/' + jam + '.webp', (error, stdout, stderr) =>
-         {
-            let stik = fs.readFileSync('temp/' + jam + '.webp')
-            conn.sendMessage(id, stik, MessageType.sticker)
-         });
-      }
-   }
-
-   if (messageType === MessageType.text)
-   {
-      let is = m.message.conversation.toLocaleLowerCase()
-
       if (is == '%pantun')
       {
 
